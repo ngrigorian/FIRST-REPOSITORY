@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container .left-side {
+  color: orange;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.header-container .right-side ul {
+  display: flex;
+  padding-top: 10px;
+}
+
+.right-side ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.right-side ul li {
+  list-style-type: none;
+  padding: 20px 10px;
+}
+
+.right-side ul a:hover {
+  color: orange;
+  transition: all 1s;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.header-section h1 {
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.header-section p {
+  padding-top: 20px;
+  color: rgb(53, 52, 52);
+}
+
+.button {
+  padding-top: 40px;
+}
+
+.button button {
+  background-color: red;
+  color: white;
+  width: 180px;
+  height: 45px;
+  border: none;
+}
+
+.button button:hover {
+  opacity: 50%;
+  transition: all 1s;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.gallery-container img {
+  padding: 0 3px;
+}
+
+.gallery-container h3 {
+  padding: 30px 100px;
+}
+
+.post-section {
+  display: flex;
+  justify-content: center;
+}
+
+.post-section img {
+  height: 160px;
+}
+
+.post-section h2 {
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.post-section .post {
+  border: 1px solid grey;
+  border-top: none;
+  margin-left: 10px;
+  height: 300px;
+}
+
+.post-section .line {
+  width: 200px;
+  height: 2px;
+  background-color: grey;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.commenting img {
+  height: 20px;
+}
+
+.commenting {
+  display: flex;
+  padding: 20px 0;
+}
+
+.commenting img {
+  padding-left: 10px;
+}
+
+.commenting p {
+  padding-left: 20px;
+}
+
+.post-section .posting .line {
+  margin-top: 47px;
+}
+
+.subscription {
+  padding-top: 200px;
+}
+
+.subscription h1 {
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.inputing {
+  display: flex;
+  justify-content: center;
+}
+
+.inputing input {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid rgb(74, 74, 74);
+}
+
+.btn {
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  width: 400px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+
+.btn button:hover {
+  opacity: 50%;
+  transition: all 1s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: rgb(39, 36, 36);
+  padding-top: 100px;
+}
